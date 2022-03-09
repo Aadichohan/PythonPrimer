@@ -156,7 +156,7 @@ num[0] = 33
 print(num)
 
 
-# In[8]:
+# In[9]:
 
 
 # Maps in Like a List & Tuples Diferrence is that it has a key Like Json Object
@@ -169,6 +169,9 @@ sportsManList = {
 print(sportsManList)
 # Update Value on Specific Key
 sportsManList['Ali'] = 'Mobile Game'
+print(sportsManList)
+# Delete Value on Specific Key
+del sportsManList['Ali']
 print(sportsManList)
 
 
